@@ -1,3 +1,6 @@
+# .cpptest folder
+.cpptest/*
+
 # Prerequisites
 *.d
 
