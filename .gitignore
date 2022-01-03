@@ -1,6 +1,7 @@
-# .cpptest folder
+# c/c++test working folders and files
 *.bdf
 .cpptest/**
+reports/**
 
 # Prerequisites
 *.d
