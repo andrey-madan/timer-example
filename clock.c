@@ -10,7 +10,7 @@
 /*
  * Print the current time
  */
-void display_time()
+void display_time() /* parasoft-suppress MISRAC2012-RULE_8_2-c "This is ok" */
 {
     char buf[BUF_SIZE];
     time_t the_time = time(NULL);
