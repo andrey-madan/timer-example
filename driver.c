@@ -61,6 +61,7 @@ void main_loop()
         default:
             /* do nothing ... reprint menu */
             print_string("\nInvalid Action ... try again!\n");
+            int i = 0;
             break;
         }
     }
