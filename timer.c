@@ -19,6 +19,7 @@ static int curr_index = 0;
 
 void init_timer()
 {
+    int j=0;
     memset(timer_records, 0, sizeof(struct timer_record*) * BUF_SIZE); 
 }
 
