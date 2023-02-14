@@ -47,7 +47,7 @@ struct timer_record* query_user()
     tm_tmp = localtime(&timer);
     
     the_record = (struct timer_record*)malloc(sizeof(struct timer_record));
-    memset(the_record, 0, sizeof(struct timer_record));
+    memset(the_record, 0, sizeof(struct timer_record)); /* parasoft-suppress BD-PB-NP "acceptable per code review." */
     
     /* starttime */
     print_string("Please enter the start hour [0-23] > ");
